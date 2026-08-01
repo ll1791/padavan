@@ -87,12 +87,12 @@ on:
         description: '插件, 示例:{"shadowsocks":"y","xray":"n"}'
         required: true
         type: string
-        default: '{"SHADOWSOCKS":"y","V2RAY":"y","SMARTDNS":"y","ADGUARDHOME":"y","ALIDDNS":"y","SQM":"y","WIREGUARD":"y"}'
+        default: '{"SHADOWSOCKS":"y","V2RAY":"n","SMARTDNS":"y","ADGUARDHOME":"y","ALIDDNS":"y","SQM":"y","WIREGUARD":"y"}'
       customization:
         description: '路由器默认配置'
         required: true
         type: string
-        default: '{"lanip":"192.168.2.1","signaccount":"admin","signpassword":"admin","wifi2gssid":"Padavan","wifi2gpsk":"1234567890","wifi5gssid":"Padavan-5G","wifi5gpsk":"1234567890"}'
+        default: '{"lanip":"192.168.233.1","signaccount":"admin","signpassword":"admin","wifi2gssid":"Padavan","wifi2gpsk":"1234567890","wifi5gssid":"Padavan-5G","wifi5gpsk":"1234567890"}'
       nanoversion:
         description: "是否极限精简"
         type: boolean
